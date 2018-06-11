@@ -1,0 +1,43 @@
+@function rpx($value) {
+  @return $value * 1rpx
+}
+.upload-video{
+  background-color: #fbe9eb;
+  padding: rpx(30);
+  .content{
+    border-radius: rpx(10);
+    background-color: #ffffff;
+    box-shadow: 0 0 rpx(10) 0 #edbcbd ;
+    padding: rpx(100) rpx(82) rpx(250);
+    .video{
+      width: rpx(526);
+      height: rpx(460);
+      border-radius: rpx(10);
+      margin-bottom: rpx(50);
+    }
+    .select-video-btn{
+      border: rpx(3) solid #fd6862;
+      border-radius: rpx(10);
+      text-align: center;
+      font-size: rpx(32);
+      color: #fd6862;
+      line-height: rpx(82);
+      margin-bottom: rpx(30);
+    }
+    .submit{
+      border-radius: rpx(10);
+      background-color: #fd6862;
+      color: #ffffff;
+      text-align: center;
+      line-height: rpx(88);
+      font-size: rpx(32);
+      margin-bottom: rpx(12);
+    }
+    .des{
+      line-height: rpx(34);
+      color: #9b9b9b;
+      font-size: rpx(24);
+    }
+  }
+}
+

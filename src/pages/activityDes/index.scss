@@ -1,0 +1,61 @@
+@function rpx($value) {
+  @return $value * 1rpx
+}
+.container{
+  background-color: #fce9eb;
+  padding-bottom: rpx(30);
+  .banner{
+    width: 100%;
+    height: rpx(256);
+  }
+  .content{
+    margin-top:rpx(-60);
+    width: 92%;
+    margin-left: 4%;
+    background-color: #ffffff;
+    border-radius: rpx(10);
+    padding: rpx(18) rpx(55) rpx(42);
+    box-sizing: border-box;
+    text-align: center;
+    .title{
+      line-height: rpx(86);
+      text-align: center;
+    }
+    .des{
+      .item{
+        line-height: rpx(34);
+        font-size: rpx(24);
+        color: #6a6a6b;
+        margin-bottom: rpx(15);
+        text-align: left;
+        &::before{
+          content: ' ';
+          display: inline-block;
+          width: rpx(10);
+          height: rpx(10);
+          line-height: rpx(34);
+          border-radius: 50%;
+          background-color: #f5716d;
+          margin-right: rpx(15);
+        }
+      }
+    }
+    .video{
+      border-radius: rpx(10);
+      width: 80%;
+      height: rpx(275);
+      margin-bottom: rpx(26);
+    }
+    .to-upload-btn{
+      width: rpx(190);
+      height: rpx(50);
+      line-height: rpx(50);
+      text-align: center;
+      color: #ffffff;
+      font-size: rpx(26);
+      background-color: #f5716d;
+      border-radius: rpx(25);
+      display: inline-block;
+    }
+  }
+}

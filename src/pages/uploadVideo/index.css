@@ -1,0 +1,41 @@
+.upload-video {
+  background-color: #fbe9eb;
+  padding: 30rpx;
+}
+.upload-video .content {
+  border-radius: 10rpx;
+  background-color: #ffffff;
+  box-shadow: 0 0 10rpx 0 #edbcbd;
+  padding: 100rpx 82rpx 250rpx;
+}
+.upload-video .content .video {
+  width: 526rpx;
+  height: 460rpx;
+  border-radius: 10rpx;
+  margin-bottom: 50rpx;
+}
+.upload-video .content .select-video-btn {
+  border: 3rpx solid #fd6862;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fd6862;
+  line-height: 82rpx;
+  margin-bottom: 30rpx;
+}
+.upload-video .content .submit {
+  border-radius: 10rpx;
+  background-color: #fd6862;
+  color: #ffffff;
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  margin-bottom: 12rpx;
+}
+.upload-video .content .des {
+  line-height: 34rpx;
+  color: #9b9b9b;
+  font-size: 24rpx;
+}
+
+/*# sourceMappingURL=index.css.map */
