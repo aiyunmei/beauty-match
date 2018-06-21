@@ -1,6 +1,6 @@
 # beauty-match
 
-> i yuedan beauty match
+> i yuedan beauty match[基于mpvue的微信小程序项目]
 
 ## Build Setup
 
